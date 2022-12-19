@@ -1,0 +1,36 @@
+[
+  {
+    "intent_name": "GREETINGS",
+    "entity_combinations": []
+  },
+  {
+    "intent_name": "SEX_CHAT",
+    "entity_combinations": [
+      {
+        "entity_name": "horny_detect",
+        "utterance": [
+          "I am too $horny_detect",
+          "Feeling so $horny_detect",
+          "my dick is $horny"
+        ],
+        "responses": "Super honey, Do you wanna play with me?"
+      },
+      {
+        "entity_name": "affirmative_yes",
+        "utterance": [
+          "$horny_detect, I want to do",
+          "$horny_detect need to do",
+          "$horny_detect"
+        ],
+        "response": "Awesome, What do you wanna choose? [Make over, Sex, Blow job]"
+      },
+      {
+        "entity_name": "affirmative_no",
+        "utterance": [
+          "$horny_detect"
+        ],
+        "response": "Oh sorry honey!!! ping me when you are ready"
+      }
+    ]
+  }
+]

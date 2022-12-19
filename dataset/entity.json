@@ -1,0 +1,42 @@
+[
+  {
+    "entity_name": "horny_detect",
+    "entity_values": {
+        "value": "horny",
+        "synonyms": [
+          "mood",
+          "desiring",
+          "hardened up",
+          "hot",
+          "high",
+          "erect"
+        ]
+      }
+  },
+    {
+    "entity_name": "affirmative_yes",
+    "entity_values": {
+        "value": "yeah",
+        "synonyms": [
+          "yes",
+          "sure",
+          "definitely",
+          "obviously",
+          "ofCourse"
+        ]
+      }
+  },
+      {
+    "entity_name": "affirmative_no",
+    "entity_values": {
+        "value": "nope",
+        "synonyms": [
+          "no",
+          "not sure",
+          "not right now",
+          "may be later",
+          "don't want"
+        ]
+      }
+  }
+]

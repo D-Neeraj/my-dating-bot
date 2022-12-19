@@ -3,6 +3,7 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
 
+
 class DataCleaning:
     __conversation__ = None
 
@@ -65,7 +66,18 @@ class DataCleaning:
         lemmatizer = WordNetLemmatizer()
         return [lemmatizer.lemmatize(word, pos='v') for word in chat_msg]
 
+    def clean_message(self, chat_message):
+
+        lower_text_conversation = self.text_to_lower(chat_message)
+
+        filtered_words = self.remove_stop_words(lower_text_conversation)
+
+        return ' '.join(self.lemmatization(filtered_words))
 
 
+# Intent - Order, Dating
+# Entity - Purchase - buy, get, order, Products - sex toys, condom, lingeria
+# Sexy_chat - love, date, sex, fuck | Romance - kiss, smooch
 
-
+# I want to buy a sex toys
+# Response -

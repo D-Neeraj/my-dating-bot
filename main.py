@@ -1,13 +1,12 @@
 from service.data_cleaning import DataCleaning
 
-conversation = DataCleaning.getInstance()
-
-lower_text_conversation = conversation.text_to_lower("Hey, how are you buddy, I am came from working to give you gifts")
-
-filtered_words = conversation.remove_stop_words(lower_text_conversation)
-
-lemmatized_words = conversation.lemmatization(filtered_words)
-
-print(lemmatized_words)
+gender = input("Please select your gender - (Male | M, Female F): ")
+your_nick_name = input("Please enter your nick name: ")
+print(f"Diamond Jackson: Hello {your_nick_name}!!!, welcome to our heaven...")
+data_clean = DataCleaning.getInstance()
+while True:
+    message = input(f"{your_nick_name}: ")
+    cleaned_message = data_clean.clean_message(message)
+    print(f"Diamond Jackson: {cleaned_message}")
 
 
