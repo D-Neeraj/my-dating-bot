@@ -4,6 +4,7 @@ from nltk.stem import WordNetLemmatizer
 import re
 
 
+# > The class `DataCleaning` is a class that has a private attribute `__conversation__` that is set to `None` by default
 class DataCleaning:
     __conversation__ = None
 
