@@ -30,7 +30,18 @@
           "$horny_detect"
         ],
         "response": "Oh sorry honey!!! ping me when you are ready"
+      },
+      {
+        "entity_name": "backing_up",
+        "utterance": [
+          "$horne_detect"
+        ],
+        "response": "Nice..Have a great day byeee!"
       }
     ]
+  },
+  {
+    "intent_name": "Make",
+    "entity_combinations": []
   }
 ]
