@@ -2,50 +2,132 @@
   {
     "entity_name": "horny_detect",
     "entity_values": {
-        "value": "horny",
-        "synonyms": [
-          "mood",
-          "desiring",
-          "hardened up",
-          "hot",
-          "high",
-          "erect"
-        ]
-      }
+      "value": "horny",
+      "synonyms": [
+        "mood",
+        "desiring",
+        "hardened up",
+        "hot",
+        "high",
+        "erect"
+      ]
+    }
   },
-    {
+  {
     "entity_name": "affirmative_yes",
     "entity_values": {
-        "value": "yeah",
-        "synonyms": [
-          "yes",
-          "sure",
-          "definitely",
-          "obviously",
-          "ofCourse"
-        ]
-      }
+      "value": "yeah",
+      "synonyms": [
+        "yes",
+        "sure",
+        "definitely",
+        "obviously",
+        "ofCourse"
+      ]
+    }
   },
   {
     "entity_name": "affirmative_no",
     "entity_values": {
-        "value": "nope",
-        "synonyms": [
-          "no",
-          "not sure",
-          "not right now",
-          "may be later",
-          "don't want"
-        ]
-      }
+      "value": "nope",
+      "synonyms": [
+        "no",
+        "not sure",
+        "not right now",
+        "may be later",
+        "don't want"
+      ]
+    }
   },
-      {
-    "entity_name": "backing_up",
+  {
+    "entity_name": "exit",
     "entity_values": {
       "value": "ok",
       "synonyms": [
         "fine",
         "done"
+      ]
+    }
+  },
+  {
+    "entity_name": "makeover_yes",
+    "entity_values": {
+      "value": "makeover"
+    }
+  },
+  {
+    "entity_name": "kiss_1",
+    "entity_values": {
+      "value": "kissing",
+      "synonyms": [
+        "smooching",
+        "smooch",
+        "kiss",
+        "hugs",
+        "hugging",
+        "lips"
+      ]
+    }
+  },
+  {
+    "entity_name": "fore_play",
+    "entity_values": {
+      "value": "boobs",
+      "synonyms": [
+        "ass",
+        "hip",
+        "back",
+        "bumps",
+        "melons",
+        "breast",
+        "butt"
+      ]
+    }
+  },
+  {
+    "entity_name": "remove",
+    "entity_values": {
+      "value": "pant",
+      "synonyms": [
+        "bra",
+        "panty",
+        "skirt",
+        "bottom",
+        "button",
+        "hook",
+        "undress"
+      ]
+    }
+  },
+  {
+    "entity_name": "intimate",
+    "entity_values": {
+      "value": "breast",
+      "synonyms": [
+        "pussy",
+        "nipples",
+        "navel",
+        "belly",
+        "ass",
+        "vagina",
+        "bellybutton",
+        "hole",
+        "aerola",
+        "vulva",
+        "clitoris",
+        "gspot"
+      ]
+    }
+  },
+  {
+    "entity_name": "intercourse",
+    "entity_values": {
+      "value": "pussy",
+      "synonyms": [
+        "vagina",
+        "cunt",
+        "clitoris",
+        "labia"
       ]
     }
   }

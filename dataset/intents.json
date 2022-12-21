@@ -32,16 +32,73 @@
         "response": "Oh sorry honey!!! ping me when you are ready"
       },
       {
-        "entity_name": "backing_up",
+        "entity_name": "exit",
         "utterance": [
-          "$horne_detect"
+          "$horny_detect"
         ],
         "response": "Nice..Have a great day byeee!"
       }
     ]
   },
   {
-    "intent_name": "Make",
-    "entity_combinations": []
+    "intent_name": "Make_Over",
+    "entity_combinations": [
+      {
+        "entity_name": "makeover_yes",
+        "utterance": [
+          "$horny_detect"
+        ],
+        "responses": "Thats cool!I've been waiting to do so..*hugs you and kissing on ur cheeks*;)"
+      },
+      {
+        "entity_name": "kiss_1",
+        "utterance": [
+          "$horny_detect you",
+          "kissing on your $horny_detect"
+        ],
+        "responses": "*Cuddling and Kissing you deeper*\nstaring at your eyes*"
+      },
+      {
+        "entity_name": "fore_play",
+        "utterance": [
+          "touching your $horny_detect",
+          "kissing your $horny_detect",
+          "holding your $horny_detect",
+          "pressing your $horny_detect"
+        ],
+        "responses": "uffff you are making me to go crazy! \n*removing my tops and kissing,laying on you*\n"
+      },
+      {
+        "entity_name": "remove",
+        "utterance": [
+          "$horny_detect yourself",
+          "removing $horny_detect"
+        ],
+        "responses": "am soo wettt right now! *making your head lay on my breast*"
+      }
+    ]
+  },
+  {
+    "intent_name": "SEX",
+    "entity_combinations": [
+      {
+        "entity_name": "intimate",
+        "utterance": [
+          "sucking $horny_detect",
+          "licking $horny_detect",
+          "kissing $horny_detect"
+        ],
+        "responses": "ahhh shhhh keep doing am so high!!, its wet!"
+      },
+      {
+        "entity_name": "intercourse",
+        "utterance": [
+          "inserting penis in #horny_detect",
+          "insert in #horny_detect",
+          "rubbing your #horny_detect"
+        ],
+        "responses": "Dont stop.... *moans louder*"
+      }
+    ]
   }
 ]
