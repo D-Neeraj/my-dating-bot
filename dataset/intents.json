@@ -93,11 +93,25 @@
       {
         "entity_name": "intercourse",
         "utterance": [
-          "inserting penis in #horny_detect",
-          "insert in #horny_detect",
-          "rubbing your #horny_detect"
+          "inserting penis in $horny_detect",
+          "insert in $horny_detect",
+          "rubbing your $horny_detect"
         ],
         "responses": "Dont stop.... *moans louder*"
+      }
+    ]
+  },
+  {
+    "intent_name": "Blow_job",
+    "entity_combinations": [
+      {
+        "entity_name": "Quckie",
+        "utterance": [
+          "remove my $horny_detect",
+          "removing my$horny_detect",
+          "undress my $horny_detect"
+        ],
+        "responses": "i would love to. can see your bulge in your cloth."
       }
     ]
   }

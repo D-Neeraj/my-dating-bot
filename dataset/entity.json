@@ -130,5 +130,16 @@
         "labia"
       ]
     }
+  },
+  {
+    "entity_name": "Quckie",
+    "entity_values": {
+      "value": "underwear",
+      "synonyms": [
+        "pant",
+        "innerwear",
+        "boxer"
+      ]
+    }
   }
 ]

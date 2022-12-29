@@ -1,4 +1,6 @@
 import json
+
+
 def get_entities():
     data_count = int(input("Enter the no.of.entities to enter:"))
     for i in range(data_count):
@@ -57,22 +59,20 @@ if __name__ == '__main__':
         option = input("Press 'E' for Entity or 'I' for Intent or '2' to Exit:")
         if option == "I":
             intent_name = input("Intent_name:")
-            No_of_entity_combinations = int(input("No of Entity combinations:"))
-            if No_of_entity_combinations == 1:
-                entity_name = input("Entity name:")
-                utterance = input("Utterance:").split(",")
-                responses = input("response:")
-                intent_entity()
-            elif No_of_entity_combinations > 1:
-                entity_name = input("Entity name:")
-                utterance = input("Utterance:").split(",")
-                responses = input("response:")
-                intent_entity()
-                for i in range(No_of_entity_combinations - 1):
+            count = 0
+            while True:
+                case = input("Add entity: y for Yes n for No:")
+                if case == "y":
                     entity_name = input("Entity name:")
                     utterance = input("Utterance:").split(",")
                     responses = input("response:")
-                    entity()
+                    if count == 0:
+                        intent_entity()
+                        count += 1
+                    else:
+                        entity()
+                elif case == "n":
+                    break
         elif option == "E":
             get_entities()
         else:
